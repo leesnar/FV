@@ -1,0 +1,318 @@
+main {
+    padding: 20px;
+    gap: 2rem;
+    
+}
+.card {
+    border-radius: 10px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0 ;
+    margin-bottom: 20px;
+    background-color: rgba(240, 240, 240, 0.253);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+body{
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;
+    background-image: url('zxcasd.jpg');
+    background-attachment: fixed;
+    background-size: 100% ;
+    background-color: rgba(240, 240, 240, 0.253);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.kaloada{
+    align-content: left;
+   
+    color: white;
+    overflow: hidden; /* Tambahkan overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    margin-bottom: 10px;
+}
+
+
+
+.head p{
+    color: whitesmoke;
+    margin: 0;
+    font-size: 1em;
+}
+
+a {
+    color: smoke;
+    text-decoration: none;
+  }
+
+  li a {
+    color: #eaf2e3
+    ;
+    text-decoration: none;
+  }
+header {
+    background-color: white;
+    background: transparent;
+    box-sizing: border-box;
+ 
+    
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    
+}
+.head {
+    background-color: rgba(240, 240, 240, 0.2);
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    /* display: flex; */
+    width: 100%;
+}
+nav ul li:first-child {
+    margin-left: auto;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0
+    ;
+    padding: 0px;
+    display: flex;
+   
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;    
+    margin-bottom: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 35px
+    ;
+    
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 200px 100px 100px;
+/*justify-content: flex-start;*/
+}
+
+
+.content {
+    font-size: 110px;
+    margin-right: 20px;
+    padding: 2px; /* Mengurangi nilai padding agar persegi panjang terlihat lebih tipis */
+    color: whitesmoke;
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end:  span 3;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+  b{
+    color: whitesmoke;
+  }
+
+.container content p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.help-section {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Menengahkan teks secara horizontal */
+
+    
+  }
+  
+  .help-section p {
+    color: whitesmoke;
+    list-style: none;
+    margin: 0;
+    font-size: 45px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;
+    
+    
+  }
+  .help-section ul{
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-trim: all;
+  }
+  
+  .help-section li {
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 30px;
+   text-align: left;
+    margin-bottom: 10px;
+  }
+.additional-content{
+    
+    background-color: rgba(240, 240, 240, 0.253);
+    grid-column-start: 3;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+
+
+}
+.bottom-content{
+    color: whitesmoke;
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;
+    font-size: 50px;
+    background-color: rgba(240, 240, 240, 0.253);
+    text-align: center;
+    display: flex;
+    grid-column-start:  3;
+    grid-column-end: span 4;
+    grid-row-start: 3;
+    align-items: center; /* Tambahkan properti ini */
+  justify-content: center; /* Tambahkan properti ini */
+    
+}
+
+.additional-content h4{
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.donasi{
+    text-align: center;
+}
+footer {
+    position: sticky;
+    top: 200%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: auto;
+    background-color: rgba(240, 240, 240, 0.253);
+    height: 120px;
+}
+
+.footer-section img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(240, 240, 240, 0.253);
+    border-radius: 50%;
+    border-radius:50%;
+    margin-right: 5px;
+    margin-left: 40px;
+    background-color: transparent;
+}
+.footer-section{
+    align-content: left;
+   
+    color: white;
+    overflow: hidden; /* Tambahkan overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-sex{
+    padding: 20px;
+    align-content: right;
+    text-align: center;
+    color: white;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+.footer-sex p{
+    font-size: 25px;
+    margin: 0;
+}
+.header-section{
+    align-content: left;
+    color: white;
+    overflow: hidden; /* Tambahkan overflow: hidden; */
+    background-size: cover;
+    background-position: center;
+}
+.header-section img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(240, 240, 240, 0.253);
+    border-radius: 50%;
+    border-radius:50%;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 40px;
+    background-color: transparent;
+}
+h2 {
+    
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: whitesmoke;
+    width: 100%;
+    line-height:50px;
+}
+ #additional-content h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Chronicle Text G2 A','Chronicle Text G2 B','Chronicle Text G2',Georgia,serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin:0;
+color: whitesmoke;
+}
+.head h1{
+    font-size: 2em;
+}
+
+.footer-section-text{
+    text-align: left;
+    padding: 0;
+    float: right;
+    display: flex; /* Tambahkan display: flex; */
+    flex-direction: column; /* Tambahkan flex-direction: column; */
+}
+.footer-section-text p{
+    font-size: 1em;
+    margin-top: 0;
+
+}
+    .footer-section-text h2{
+        font-size: 1.5em;
+        margin-top: 10px;
+        margin-bottom:-1px;
+}
